@@ -5,13 +5,13 @@
         <title>Login Page</title>
         
         <!-- The stylesheet -->
-        <evan:stylesheet src="login.css?rm=1"/>
+        <evan:stylesheet src="login.css?d=17"/>
         <!--[if lt IE 9]>
           <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
         <![endif]-->
         <!-- JavaScript includes - jQuery, the complexify plugin and our own script.js -->
 		<g:javascript library="jquery" plugin="jquery"/>
-		<evan:javascript src="login.js"/>
+		<evan:javascript src="login.js?re=1"/>
     </head>
     
     <body>
@@ -20,7 +20,7 @@
         	
         	<h1>Sign up, it's FREE!</h1>
         	
-        	<form class="" method="post" action="">
+        	<form method="post" action="login/main">
         		
         		<div class="row email">
 	    			<input type="text" id="email" name="email" placeholder="Email" />
@@ -45,10 +45,9 @@
         	</form>
         </div>
         
-        <footer>
-	        
-            <a class="al3xis"> a form with password meter and pass validation </a>
-        </footer>
+        <div class="footer" role="contentinfo">
+            <span>&copy; 2014 Evan Inc. ALL RIGHTS RESERVED.</span>
+        </div>
     
     </body>
 </html>

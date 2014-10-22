@@ -31,7 +31,6 @@ class AplicationTagLib {
 	}
 	def javascript = { attrs ->
 		def src = attrs.remove("src")
-		println "Evan----------->${resource(dir:"js", file:src)}"
 		out << "<script type=\"text/javascript\" src=\"${resource(dir:"js", file:src)}\" ${paramsToHtmlAttr(attrs)}></script>"
 	}
 }

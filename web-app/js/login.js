@@ -16,8 +16,8 @@ $(function(){
 		if($('#main .row.success').length == $('#main .row').length){
 			
 			// Yes!
-			alert("Thank you for trying out this demo!");
-			e.preventDefault(); // Remove this to allow actual submission
+			//alert("Thank you for trying out this demo!");
+			//e.preventDefault(); // Remove this to allow actual submission
 			
 		}
 		else{
