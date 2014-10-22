@@ -2,13 +2,16 @@
 <html>
     <head>
         <meta charset="utf-8" />
-        <title>Al3xis</title>
+        <title>Login Page</title>
         
         <!-- The stylesheet -->
-        <evan:stylesheet src="login.css"/>
-        <!--[if lt IE 9]><![endif]-->
+        <evan:stylesheet src="login.css?rm=1"/>
+        <!--[if lt IE 9]>
           <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-        
+        <![endif]-->
+        <!-- JavaScript includes - jQuery, the complexify plugin and our own script.js -->
+		<g:javascript library="jquery" plugin="jquery"/>
+		<evan:javascript src="login.js"/>
     </head>
     
     <body>
@@ -46,11 +49,7 @@
 	        
             <a class="al3xis"> a form with password meter and pass validation </a>
         </footer>
-        
-        <!-- JavaScript includes - jQuery, the complexify plugin and our own script.js -->
-		<script src="http://code.jquery.com/jquery-1.7.2.min.js"></script>
-
-		     
+    
     </body>
 </html>
 
